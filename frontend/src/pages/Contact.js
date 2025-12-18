@@ -7,27 +7,16 @@ function Contact() {
       <h1>Contact</h1>
       
       <div className="card">
-        <h2>Get in Touch</h2>
-        <p>This is a placeholder contact page. You can add your own content here!</p>
+        <h2>Email</h2>
+        <p>paullouis.gomis.etu@univ-lille.fr</p>
       </div>
 
-      <div className="info-section">
-        <h2>Navigation Demo</h2>
-        <p>
-          Notice how switching between pages doesn't cause a full page reload. 
-          The navigation is handled entirely on the client-side using React Router,
-          making the experience smooth and fast.
-        </p>
-        <p>
-          You can verify this by:
-        </p>
-        <ul>
-          <li>Opening the browser's developer console (F12)</li>
-          <li>Going to the Network tab</li>
-          <li>Clicking on different menu items</li>
-          <li>Observing that no new page loads occur</li>
-        </ul>
-      </div>
+      <div className="card">
+        <h2>Social Media</h2>
+        <p>Twitter: <a href="https://twitter.com/PaouloGamer" target="_blank" rel="noopener noreferrer">@PaouloGamer</a></p>
+        <p>GitHub: <a href="https://github.com/paoulo21" target="_blank" rel="noopener noreferrer">paoulo21</a></p>
+        <p>Discord: paoulo.</p>
+    </div>
     </div>
   );
 }

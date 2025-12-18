@@ -40,6 +40,7 @@ function About() {
         <p>
           I'm a student at Lille University in search of an internship and opportunities to grow my skills in web development.
         </p>
+        <img src="http://localhost:8080/api/image/CV.jpg" alt="CV" style={{width: "100%"}}/>
       </div>
     </div>
   );
