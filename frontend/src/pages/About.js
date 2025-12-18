@@ -35,6 +35,12 @@ function About() {
           </div>
         </div>
       </div>
+      <div className="card">
+        <h2>About Me</h2>
+        <p>
+          I'm a student at Lille University in search of an internship and opportunities to grow my skills in web development.
+        </p>
+      </div>
     </div>
   );
 }
