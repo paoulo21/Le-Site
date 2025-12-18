@@ -2,6 +2,15 @@ import React from 'react';
 import './Page.css';
 
 function Projects() {
+  const getStatusClass = (status) => {
+    const statusMap = {
+      'In Progress': 'in-progress',
+      'Planning': 'planning',
+      'Idea': 'idea'
+    };
+    return statusMap[status] || 'default';
+  };
+
   const projects = [
     {
       id: 1,
@@ -33,7 +42,7 @@ function Projects() {
           <div key={project.id} className="card project-card">
             <h3>{project.title}</h3>
             <p>{project.description}</p>
-            <span className={`status status-${project.status.toLowerCase().replace(' ', '-')}`}>
+            <span className={`status status-${getStatusClass(project.status)}`}>
               {project.status}
             </span>
           </div>

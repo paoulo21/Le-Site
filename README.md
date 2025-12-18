@@ -54,12 +54,17 @@ The backend will start on `http://localhost:8080`
 cd frontend
 ```
 
-2. Install dependencies:
+2. Copy the example environment file:
+```bash
+cp .env.example .env
+```
+
+3. Install dependencies:
 ```bash
 npm install
 ```
 
-3. Start the development server:
+4. Start the development server:
 ```bash
 npm start
 ```
